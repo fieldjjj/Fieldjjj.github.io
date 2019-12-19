@@ -1,0 +1,88 @@
+body{
+    background-color:black;
+}
+.top_bar{
+    top: 0px;
+    left: 2.5%;
+    width: 95%;
+    height: 50px;
+    background-color:black;
+    position: relative;
+}
+.work{
+    font-size: 3em;
+    left: 50px;
+    color: white;
+    position: absolute;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.about{
+    font-size: 3em;
+    right: 50px;
+    color: white;
+    position: absolute;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.personal_description{
+    font-size: 2.5em;
+    left: 10%;
+    position: absolute;
+    top: 230px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+}
+
+.personal_description1{
+    font-size: 2em;
+    left: 10%;
+    position: absolute;
+    top: 300px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+}
+
+.photo{
+    right: 20%;
+    top: 550px;
+    width: 30%;
+    position: absolute;
+}
+
+.photo2{
+    right: 1060px;
+    top: 1450px;
+    width: 30%;
+    position: absolute;
+}
+
+.bottom_bar{
+    margin: auto;
+    border-top: 5px solid white;
+    width: 90vw;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 3px;
+    padding: 20px 20px 20px 82vw;
+}
+
+
+/*-----------SMART PHONES ----------*/
+@media only screen and (max-width:800px){
+
+
+}
+
+
+/*----------TABLETS----------*/
+@media only screen and (min-width:800px) and (max-width:1280px){
+
+
+
+}

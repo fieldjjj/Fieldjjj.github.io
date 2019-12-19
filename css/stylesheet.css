@@ -1,0 +1,741 @@
+a:hover{
+    color: grey;
+    text-decoration: underline;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+body{
+    background-color:black;
+}
+img{
+    max-width: 100%;
+}
+
+.individual_item{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    width: 80vw;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+.top_bar{
+    top: 0px;
+    left: 2.5%;
+    width: 95%;
+    height: 50px;
+    background-color:black;
+    position: relative;
+}
+
+.work{
+    font-size: 3em;
+    left: 50px;
+    color: white;
+    position: absolute;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.about{
+    font-size: 3em;
+    right: 50px;
+    color: white;
+    position: absolute;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.image_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    width: 80vw;
+    margin: auto;
+    margin-top: 100px;
+
+}
+
+.title{
+    top: 500px;
+    color: white;
+    margin-left: 10%;
+    font-size: 1.5em;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+}
+.creator{
+    top: 530px;
+    color: white;
+    margin-left: 10%;
+    font-size: 1.5em;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+}
+
+.bottom_bar{
+    margin: auto;
+    border-top: 5px solid white;
+    width: 90vw;
+    min-height: 100px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 3px;
+    padding: 20px 20px 20px 75vw;
+}
+
+
+
+
+/*-----------SMART PHONES ----------*/
+@media only screen and (max-width:800px){
+
+    body{
+        background-color:black;
+    }
+    img{
+        max-width: 100%;
+    }
+    
+    .individual_item{
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 20px;
+        width: 80vw;
+        margin: auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    
+
+    .image2{
+        display: none;
+    }
+    
+    .creator_name{
+        font-size: 1.5em;
+        margin-top: 30px;
+        text-align: right;
+    }
+    
+    .shoe_name{
+        font-size: 1.5em;
+        margin-top: 30px;
+        text-align: right;
+        display: block;
+    }
+    
+    .top_bar{
+        top: 0px;
+        left: 2.5%;
+        width: 95%;
+        height: 50px;
+        background-color:black;
+        position: relative;
+    }
+    
+    .work{
+        font-size: 1.75em;
+        left: 50px;
+        color: white;
+        position: absolute;
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+    }
+    
+    .about{
+        font-size: 1.75em;
+        right: 50px;
+        color: white;
+        position: absolute;
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+    }
+
+    .top_bar{
+        top: 0px;
+        left: 2.5%;
+        width: 90%;
+        height: 50px;
+        background-color:black;
+        position: relative;
+    }
+    
+    .work{
+        font-size: 1em;
+        left: 5%;
+        color: white;
+        position: absolute;
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+    }
+    
+    .about{
+        font-size: 1em;
+        right: 5%;
+        color: white;
+        position: absolute;
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+    }
+
+
+
+}
+
+/*----------TABLETS----------*/
+@media only screen and (min-width:800px) and (max-width:1280px){
+   
+body{
+    background-color:black;
+}
+img{
+    max-width: 100%;
+}
+
+.individual_item{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    width: 80vw;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.image1{
+    display: none;
+}
+
+.creator_name{
+    font-size: 1.5em;
+    margin-top: 30px;
+    text-align: right;
+}
+
+.shoe_name{
+    font-size: 1.75em;
+    margin-top: 80px;
+    text-align: right;
+    display: block;
+}
+
+.top_bar{
+    top: 0px;
+    left: 2.5%;
+    width: 95%;
+    height: 50px;
+    background-color:black;
+    position: relative;
+}
+
+.work{
+    font-size: 2.5em;
+    left: 50px;
+    color: white;
+    position: absolute;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.about{
+    font-size: 2.5em;
+    right: 50px;
+    color: white;
+    position: absolute;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background-color:black;
+}
+
+img{
+    max-width: 100%;
+}
+
+.whole_body{
+    display: grid;
+    width: 86vw;
+    margin:auto;
+    margin-top: 100px;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap:50px;
+    margin-bottom: 100px;
+}
+
+.title_work{
+    font-size: 1em;
+    margin: auto;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+}
+
+.creator_work{
+    font-size: 1em;
+    margin: auto;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+}
+
+.year_work{
+    font-size: 1em;
+    width: 80%;
+    margin: auto;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+}
+
+.detailed_description_work{
+    width: 80%;
+    margin: auto;
+    font-size: 1em;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+/*-----------SMART PHONES ----------*/
+@media only screen and (max-width:800px){
+
+    .whole_body{
+        grid-template-columns: 1fr;
+        display: grid;
+    }
+
+    .title{
+        margin: auto;
+        font-size: 0.75em;
+        margin-left: 0;
+    }
+    
+    .creator{
+        margin-top: 15px;
+        margin-left: 0;
+        font-size: 0.75em;
+    }
+    
+    .year_work{
+        font-size: 0.75em;
+        width: 100%;
+        margin: 0;
+        color: white;
+        font-family: 'Playfair Display', serif;
+        font-weight: 900;
+    }
+    
+    .detailed_description_work{
+        width: 100%;
+        margin: 0;
+        font-size: 0.75em;
+        color: white;
+        font-family: 'Playfair Display', serif;
+        font-weight: 400;
+    }
+
+}
+
+
+/*----------TABLETS----------*/
+@media only screen and (min-width:800px) and (max-width:1280px){
+
+    .description_work{
+        width: 100%;
+    }
+
+    .whole_body{
+        grid-template-columns: 1fr;
+        display: grid;
+        width: 78vw;
+        margin:auto;
+        margin-top: 100px;
+        grid-row-gap: 50px;
+        margin-bottom: 20px;
+    }
+
+    .title{
+        margin: auto;
+        font-size: 1em;
+        margin-left: 0;
+    }
+    
+    .creator{
+        margin-top: 20px;
+        margin-left: 0;
+        font-size: 1em;
+    }
+    
+    .year_work{
+        font-size: 1em;
+        width: 80%;
+        margin: 0;
+        color: white;
+        font-family: 'Playfair Display', serif;
+        font-weight: 900;
+    }
+    
+    .detailed_description_work{
+        width: 100%;
+        margin: 0;
+        font-size: 1em;
+        color: white;
+        font-family: 'Playfair Display', serif;
+        font-weight: 400;
+    }
+    
+    .picture{
+        margin: auto;
+    }
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background-color:black;
+}
+
+.personal_description1{
+    font-size: 2.5em;
+    margin-left: 5%;
+    position: relative;
+    margin-top: 230px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+}
+
+.personal_description2{
+    font-size: 2em;
+    margin-left: 5%;
+    position: relative;
+    margin-top: 70px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+}
+
+.photo_description{
+    margin: auto;
+    width: 90vw;
+    min-height: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+
+
+.skillpack_text_box{
+    display: grid;
+    margin: auto;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 1em;
+    color: white;
+    grid-row-gap: 0px;
+}
+
+.skillpack1{    
+    font-size: 1.5em;
+}
+
+.skillpack2{
+    font-size: 1.25em;
+}
+
+.skillpack4{
+    font-size: 1.25em;
+}
+
+.skillpack6{
+    font-size: 1.25em;
+}
+
+.skillpack8{
+    font-size: 1.25em;
+}
+
+
+
+/*-----------SMART PHONES ----------*/
+@media only screen and (max-width:800px){
+
+    body{
+        background-color:black;
+    }
+    
+    .personal_description1{
+        font-size: 1.75em;
+        margin-left: 5%;
+        position: relative;
+        margin-top: 230px;
+        color: white;
+        font-family: 'Playfair Display', serif;
+        font-weight: 900;
+    }
+    
+    .personal_description2{
+        font-size: 1.25em;
+        margin-left: 5%;
+        width: 90%;
+        position: relative;
+        margin-top: 70px;
+        color: white;
+        font-family: 'Playfair Display', serif;
+        font-weight: 900;
+    }
+    
+    .photo_description{
+        margin: auto;
+        width: 90vw;
+        min-height: 100px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+    }
+    
+    
+    .skillpack_text_box{
+        display: grid;
+        margin: auto;
+        margin-left: 2%;
+        margin-top: 20px;
+        width: 96%;
+        font-size: 1em;
+        color: white;
+        grid-row-gap: 0px;
+    }
+    
+    .skillpack1{    
+        font-size: 1.5em;
+    }
+    
+    .skillpack2{
+        font-size: 1.25em;
+    }
+    
+    .skillpack4{
+        font-size: 1.25em;
+    }
+    
+    .skillpack6{
+        font-size: 1.25em;
+    }
+    
+    .skillpack8{
+        font-size: 1.25em;
+    }
+    
+
+}
+
+
+/*----------TABLETS----------*/
+@media only screen and (min-width:800px) and (max-width:1280px){
+    .photo_description{
+        margin: auto;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+        min-height: 100px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+    }
+
+    .skillpack_container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: auto;
+        margin-left: 0px;
+        margin-top: 20px;
+        font-size: 1em;
+        color: white;
+        grid-row-gap: 0px;
+        grid-column-gap: 100px;
+    }
+    
+    .personal_description1{
+        margin-right: 5%;
+        width: 90%;
+    }
+
+    .personal_description2{
+        margin-right: 5%;
+        width: 90%;
+    }
+
+    .skillpack1{    
+        font-size: 2em;
+    }
+    
+    .skillpack2{
+        font-size: 1.5em;
+    }
+    
+    .skillpack4{
+        font-size: 1.5em;
+    }
+    
+    .skillpack6{
+        font-size: 1.5em;
+    }
+    
+    .skillpack8{
+        font-size: 1.5em;
+    }
+
+
+}
