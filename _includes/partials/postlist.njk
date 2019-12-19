@@ -2,15 +2,19 @@
   {% for post in postslist %}
     <div class="individual_item">
       <div class="item_column">
-        <a href="{{ post.url | url }}">
+        <a class="image1" href="{{ post.url | url }}">
           <img src="{{ post.data.featured_image | url }}" />
         </a>
-        <a class="shoe_name" href="{{ post.url | url }}">
-          {{ post.data.title }}
-        </a>
+        <div class="creator_work">
+             <a class="shoe_name" href="{{ post.url | url }}">
+              {{ post.data.title }}
+            </a>
+            <p class="creator_name">Creator: Qiang Zheng</p>
+        </div>
+       
       </div>
       <div class="item_column">
-        <a href="{{ post.url | url }}">
+        <a class="image2" href="{{ post.url | url }}">
           <img src="{{ post.data.featured_image2 | url }}" />
         </a>
       </div>

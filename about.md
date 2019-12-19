@@ -18,15 +18,25 @@ permalink: about/
             <img src="/img/photo2.png" alt="photo2" >
         </div>
         <div class="skillpack_text_box">
-            <p class="skillpack1">Skill :</p>   
-            <p class="skillpack2">Adobe Photoshop</p>  
-            <p class="skillpack3">⭐️⭐️⭐️  Intermediate</p>   
-            <p class="skillpack4">Adobe Illustrator</p>  
-            <p class="skillpack5">⭐️⭐️⭐️  Intermediate</p>  
-            <p class="skillpack6">Adobe Indesign</p>
-            <p class="skillpack7">⭐️⭐️⭐️⭐️  Good</p>
-            <p class="skillpack8">Adobe XD</p> 
-            <p class="skillpack9">⭐️⭐️⭐️⭐️  Good</p> 
+            <p class="skillpack1">Skill :</p>  
+            <div class="skillpack_container">
+                <div class="skillpack_1"> 
+                    <p class="skillpack2">Adobe Photoshop</p>  
+                    <p class="skillpack3">⭐️⭐️⭐️  Intermediate</p>   
+                </div>
+                <div class="skillpack_2">
+                    <p class="skillpack4">Adobe Illustrator</p>  
+                    <p class="skillpack5">⭐️⭐️⭐️  Intermediate</p> 
+                </div> 
+                <div class="skillpack_3">
+                    <p class="skillpack6">Adobe Indesign</p>
+                    <p class="skillpack7">⭐️⭐️⭐️⭐️  Good</p>
+                </div> 
+                <div class="skillpack_4">
+                    <p class="skillpack8">Adobe XD</p> 
+                    <p class="skillpack9">⭐️⭐️⭐️⭐️  Good</p> 
+                </div> 
+            </div>
         </div>
     </div>   
 </div>

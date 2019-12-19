@@ -112,120 +112,93 @@ img{
 @media only screen and (max-width:800px){
 
     body{
-        background-color:black  ;
+        background-color:black;
     }
     img{
         max-width: 100%;
     }
-
-    .picture1{
-        width: 80vw;
-        left: 10%;
-    }
-
-    .picture2{
-        display: none;
-    }
-
-    .picture3{
-        width: 80vw;
-        left: 10%;
-    }
-
-    .picture4{
-        display: none;
-    }
-
-    .picture6{
-        width: 80vw;
-        left: 10%;
-    }
-
-    .picture5{
-        display: none;
-    }
-
-
-
-    .title11{
-        top: 500px;
-        color: white;
-        margin-right: 10%;
-        font-size: 0.75em;
-        font-family: 'Playfair Display', serif;
-        font-weight: 900;
-        text-align: right;
-    }
-    .creator11{
-        top: 530px;
-        color: white;
-        margin-right: 10%;
-        text-align: right;
-        font-size: 0.75em;
-        font-family: 'Playfair Display', serif;
-        font-weight: 900;
-    }
-
-    .image_grid2{
+    
+    .individual_item{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         column-gap: 20px;
         width: 80vw;
         margin: auto;
         margin-top: 100px;
-    }
-    .title21{
-        top: 1350px;
-        color: white;
-        margin-right: 10%;
-        text-align: right;
-        font-size: 0.75em;
-        font-family: 'Playfair Display', serif;
-        font-weight: 900;
-    }
-
-    .creator21{
-        top: 1380px;
-        color: white;
-        margin-right: 10%;
-        text-align: right;
-        font-size: 0.75em;
-        font-family: 'Playfair Display', serif;
-        font-weight: 900;
         margin-bottom: 100px;
     }
+    
 
-    .image_grid3{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 20px;
-        width: 80vw;
-        margin: auto;
-        margin-top: 100px;
+    .image2{
+        display: none;
     }
-
-    .title31{
-        top: 1350px;
-        color: white;
-        margin-right: 10%;
+    
+    .creator_name{
+        font-size: 1.5em;
+        margin-top: 30px;
         text-align: right;
-        font-size: 0.75em;
-        font-family: 'Playfair Display', serif;
-        font-weight: 900;
     }
-
-    .creator31{
-        top: 1380px;
-        color: white;
-        margin-right: 10%;
+    
+    .shoe_name{
+        font-size: 1.5em;
+        margin-top: 30px;
         text-align: right;
-        font-size: 0.75em;
+        display: block;
+    }
+    
+    .top_bar{
+        top: 0px;
+        left: 2.5%;
+        width: 95%;
+        height: 50px;
+        background-color:black;
+        position: relative;
+    }
+    
+    .work{
+        font-size: 1.75em;
+        left: 50px;
+        color: white;
+        position: absolute;
         font-family: 'Playfair Display', serif;
-        font-weight: 900;
-        margin-bottom: 100px;
+        font-weight: 700;
+    }
+    
+    .about{
+        font-size: 1.75em;
+        right: 50px;
+        color: white;
+        position: absolute;
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
     }
 
-
+    .top_bar{
+        top: 0px;
+        left: 2.5%;
+        width: 90%;
+        height: 50px;
+        background-color:black;
+        position: relative;
+    }
+    
+    .work{
+        font-size: 1em;
+        left: 5%;
+        color: white;
+        position: absolute;
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+    }
+    
+    .about{
+        font-size: 1em;
+        right: 5%;
+        color: white;
+        position: absolute;
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+    }
 
 
 
@@ -234,36 +207,66 @@ img{
 /*----------TABLETS----------*/
 @media only screen and (min-width:800px) and (max-width:1280px){
    
-    body{
-        background-color:black;
-    }
+body{
+    background-color:black;
+}
+img{
+    max-width: 100%;
+}
 
-    img{
-        max-width: 100%;
-    }
-    
-    
-    .grouping{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 0px;
-        width: 30vw;
-        margin-top: 100px;
-    }
+.individual_item{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    width: 80vw;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 
-    .picture2{
-        display: none;
-    }
+.image1{
+    display: none;
+}
 
-    .picture4{
-        display: none;
-    }
+.creator_name{
+    font-size: 1.5em;
+    margin-top: 30px;
+    text-align: right;
+}
 
-    .picture6{
-        display: none;
-    }
-    
+.shoe_name{
+    font-size: 1.75em;
+    margin-top: 80px;
+    text-align: right;
+    display: block;
+}
 
+.top_bar{
+    top: 0px;
+    left: 2.5%;
+    width: 95%;
+    height: 50px;
+    background-color:black;
+    position: relative;
+}
+
+.work{
+    font-size: 2.5em;
+    left: 50px;
+    color: white;
+    position: absolute;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+.about{
+    font-size: 2.5em;
+    right: 50px;
+    color: white;
+    position: absolute;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
 
 }
 
@@ -360,9 +363,7 @@ img{
     font-weight: 400;
 }
 
-.picture{
-    height: 400px;
-}
+
 
 
 
@@ -371,6 +372,40 @@ img{
 /*-----------SMART PHONES ----------*/
 @media only screen and (max-width:800px){
 
+    .whole_body{
+        grid-template-columns: 1fr;
+        display: grid;
+    }
+
+    .title{
+        margin: auto;
+        font-size: 0.75em;
+        margin-left: 0;
+    }
+    
+    .creator{
+        margin-top: 15px;
+        margin-left: 0;
+        font-size: 0.75em;
+    }
+    
+    .year_work{
+        font-size: 0.75em;
+        width: 100%;
+        margin: 0;
+        color: white;
+        font-family: 'Playfair Display', serif;
+        font-weight: 900;
+    }
+    
+    .detailed_description_work{
+        width: 100%;
+        margin: 0;
+        font-size: 0.75em;
+        color: white;
+        font-family: 'Playfair Display', serif;
+        font-weight: 400;
+    }
 
 }
 
@@ -378,6 +413,54 @@ img{
 /*----------TABLETS----------*/
 @media only screen and (min-width:800px) and (max-width:1280px){
 
+    .description_work{
+        width: 100%;
+    }
+
+    .whole_body{
+        grid-template-columns: 1fr;
+        display: grid;
+        width: 78vw;
+        margin:auto;
+        margin-top: 100px;
+        grid-row-gap: 50px;
+        margin-bottom: 20px;
+    }
+
+    .title{
+        margin: auto;
+        font-size: 1em;
+        margin-left: 0;
+    }
+    
+    .creator{
+        margin-top: 20px;
+        margin-left: 0;
+        font-size: 1em;
+    }
+    
+    .year_work{
+        font-size: 1em;
+        width: 80%;
+        margin: 0;
+        color: white;
+        font-family: 'Playfair Display', serif;
+        font-weight: 900;
+    }
+    
+    .detailed_description_work{
+        width: 100%;
+        margin: 0;
+        font-size: 1em;
+        color: white;
+        font-family: 'Playfair Display', serif;
+        font-weight: 400;
+    }
+    
+    .picture{
+        margin: auto;
+    }
+    
 
 
 }
@@ -457,7 +540,7 @@ body{
 
 .personal_description1{
     font-size: 2.5em;
-    margin-left: 10%;
+    margin-left: 5%;
     position: relative;
     margin-top: 230px;
     color: white;
@@ -467,7 +550,7 @@ body{
 
 .personal_description2{
     font-size: 2em;
-    margin-left: 10%;
+    margin-left: 5%;
     position: relative;
     margin-top: 70px;
     color: white;
@@ -522,14 +605,14 @@ body{
 
 /*-----------SMART PHONES ----------*/
 @media only screen and (max-width:800px){
-    
+
     body{
         background-color:black;
     }
     
     .personal_description1{
-        font-size: 2.5em;
-        margin-left: 10%;
+        font-size: 1.75em;
+        margin-left: 5%;
         position: relative;
         margin-top: 230px;
         color: white;
@@ -538,8 +621,9 @@ body{
     }
     
     .personal_description2{
-        font-size: 2em;
-        margin-left: 10%;
+        font-size: 1.25em;
+        margin-left: 5%;
+        width: 90%;
         position: relative;
         margin-top: 70px;
         color: white;
@@ -554,7 +638,7 @@ body{
         margin-top: 100px;
         margin-bottom: 100px;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         grid-column-gap: 30px;
         grid-row-gap: 30px;
     }
@@ -563,8 +647,9 @@ body{
     .skillpack_text_box{
         display: grid;
         margin: auto;
-        margin-left: 50px;
+        margin-left: 2%;
         margin-top: 20px;
+        width: 96%;
         font-size: 1em;
         color: white;
         grid-row-gap: 0px;
@@ -596,7 +681,61 @@ body{
 
 /*----------TABLETS----------*/
 @media only screen and (min-width:800px) and (max-width:1280px){
+    .photo_description{
+        margin: auto;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 90%;
+        min-height: 100px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+    }
 
+    .skillpack_container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: auto;
+        margin-left: 0px;
+        margin-top: 20px;
+        font-size: 1em;
+        color: white;
+        grid-row-gap: 0px;
+        grid-column-gap: 100px;
+    }
+    
+    .personal_description1{
+        margin-right: 5%;
+        width: 90%;
+    }
+
+    .personal_description2{
+        margin-right: 5%;
+        width: 90%;
+    }
+
+    .skillpack1{    
+        font-size: 2em;
+    }
+    
+    .skillpack2{
+        font-size: 1.5em;
+    }
+    
+    .skillpack4{
+        font-size: 1.5em;
+    }
+    
+    .skillpack6{
+        font-size: 1.5em;
+    }
+    
+    .skillpack8{
+        font-size: 1.5em;
+    }
 
 
 }

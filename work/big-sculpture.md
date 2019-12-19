@@ -3,7 +3,7 @@ layout: layouts/post.njk
 tags:
  - work
  - "2018"
-title: Shoe
+title: Converse 70’s
 type: 
 year: "2018"
 featured_image: "/img/shoe1.png"
